@@ -76,6 +76,8 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://ioannismavromatis.com" target="_blank">★</a>
 <a href="https://taidnguyen.github.io" target="_blank">★</a>
 <a href="https://lbugnon.github.io" target="_blank">★</a>
+<a href="https://joahannes.github.io" target="_blank">★</a>
+<a href="https://dominikstrb.github.io" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -115,6 +117,33 @@ Neural Compression (ICLR: <a href="https://neuralcompression.github.io/" target=
 
 [![Google PageSpeeg](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/pagespeed.svg)](https://pagespeed.web.dev/report?url=https%3A%2F%2Falshedivat.github.io%2Fal-folio%2F&form_factor=desktop)
 
+
+## Table Of Contents
+
+  * [User community](#user-community)
+  * [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
+  * [Getting started](#getting-started)
+    + [Installation](#installation)
+      - [Local setup using Docker (Recommended on Windows)](#local-setup-using-docker-recommended-on-windows)
+      - [Local Setup (Standard)](#local-setup-standard)
+      - [Deployment](#deployment)
+      - [Upgrading from a previous version](#upgrading-from-a-previous-version)
+    + [FAQ](#faq)
+  * [Features](#features)
+    + [Publications](#publications)
+    + [Collections](#collections)
+    + [Layouts](#layouts)
+      - [The iconic style of Distill](#the-iconic-style-of-distill)
+      - [Full support for math & code](#full-support-for-math--code)
+      - [Photos](#photos)
+    + [Other features](#other-features)
+      - [GitHub repositories and user stats](#github-repositories-and-user-stats)
+      - [Theming](#theming)
+      - [Social media previews](#social-media-previews)
+      - [Atom (RSS-like) Feed](#atom-rss-like-feed)
+  * [Contributing](#contributing)
+    + [Core Contributors](#core-contributors)
+  * [License](#license)
 
 ## Getting started
 
@@ -338,13 +367,13 @@ You can also add new `*.bib` files and customize the look of your publications h
 
 <details><summary>(click to expand) <strong>Author annotation:</strong></summary>
 
-In publications, the author entry for yourself is identified by string `scholar:last_name` and string array `scholar:first_name` in `_config.yml`:
+In publications, the author entry for yourself is identified by string array `scholar:last_name` and string array `scholar:first_name` in `_config.yml`:
 ```
 scholar:
-  last_name: Einstein
+  last_name: [Einstein]
   first_name: [Albert, A.]
 ```
-If the entry matches the last name and one form of the first names, it will be underlined.
+If the entry matches one form of the last names and the first names, it will be underlined.
 Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
 The coauthor data format in `_data/coauthors.yml` is as follows,
 ```
