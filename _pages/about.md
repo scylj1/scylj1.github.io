@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='lj408@cam.ac.uk'>lj408@cam.ac.uk</a>
+subtitle: <a>lj408@cam.ac.uk</a>
 
 profile:
   align: right
