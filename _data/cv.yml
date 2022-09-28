@@ -38,23 +38,25 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2022
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Zhejiang Provincial Exellent Graduate
+
+    - year: 2020
+      items:  
+        - Dean Scholarship
+        - Merit-based Award
+        
+    - year: 2019
       items: 
-        - Max Planck Medal
+        - Dean Scholarship
+        - Dream Scholarship 
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Machine Learning
+      
+    - title: Natural Language Processing
+      
 
