@@ -35,7 +35,14 @@
       year: 2021 - 2022
       description:
         - Development of C++ Client Framework in <a href="https://flower.dev/">Flower</a> (A Friendly Federated Learning Framework)
-        
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+      
 - title: Honors and Awards
   type: time_table
   contents:
@@ -44,19 +51,28 @@
         - Zhejiang Provincial Exellent Graduate
     - year: 2020
       items: 
-        - Dean's Scholarship
+        - Dean Scholarship
         - Merit-based Award
      - year: 2019
       items: 
-        - Dean's Scholarship
+        - Dean Scholarship
         - Dream Scholarship   
 
 - title: Academic Interests
   type: nested_list
   contents:
     - title: Machine Learning 
-      items:
+      items: 
+        - Description 1.
+        - Description 2.
     - title: Natural Language Processing
       items:
-      
+        - Description 1.
+        - Description 2.
+
+ 
+ - title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
 
