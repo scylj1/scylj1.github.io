@@ -11,6 +11,12 @@
 - title: Education
   type: time_table
   contents:
+    - title: PhD
+      institution: University of Cambridge
+      year: 2023 - 2027
+      description:
+        - Department of Engineering
+
     - title: MPhil
       institution: University of Cambridge
       year: 2022 - 2023
@@ -32,6 +38,12 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Software Engineer
+      institution: <a href="https://www.volemic.com/">Volemic</a>
+      year: 2023
+      description:
+        - Developed language models to build trust infrastructure for emails.
+
     - title: Research Assistant
       institution: Cambridge Machine Learning Systems Lab
       year: 2021 - 2022

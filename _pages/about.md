@@ -14,8 +14,8 @@ profile:
   #  <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am studying [MPhil in Advanced Computer Science](https://www.postgraduate.study.cam.ac.uk/courses/directory/cscsmpacs) at [University of Cambridge](https://www.cam.ac.uk/), [Homerton College](https://www.homerton.cam.ac.uk/), supervised by Professor [Andreas Vlachos](http://andreasvlachos.github.io/). Prior to this, I obtained my bachelor degree in Computer Science with Artificial Intelligence at the [University of Nottingham](https://www.nottingham.ac.uk/). 
+I am a PhD student in the [Department of Engineering](http://www.eng.cam.ac.uk/) at [University of Cambridge](https://www.cam.ac.uk/), [Churchill College](https://www.chu.cam.ac.uk/), supervised by [Dr.Stephan Goetz](http://www.eng.cam.ac.uk/profiles/smg84). Prior to this, I obtained my master degree in Advanced Computer Science at University of Cambridge and bachelor degree in Computer Science with Artificial Intelligence at the [University of Nottingham](https://www.nottingham.ac.uk/). 

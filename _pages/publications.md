@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Something interesting is about to come out 🤩
+description: Feel free to contact me if you find something interesting 🤩
 years: []
 nav: true
 nav_order: 1
