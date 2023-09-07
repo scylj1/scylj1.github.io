@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: Feel free to contact me if you find something interesting 🤩
-years: []
+years: [2023]
 nav: true
 nav_order: 1
 ---
