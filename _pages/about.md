@@ -8,10 +8,10 @@ profile:
   align: right
   image: life.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-  <p>Electrical Engineering Division Building</p>
-  <p>9 JJ Thomson Ave</p>
-  <p>Cambridge, CB3 0FA</p>
+  #address: >
+  #<p>Electrical Engineering Division Building</p>
+  #<p>9 JJ Thomson Ave</p>
+  #<p>Cambridge, CB3 0FA</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
