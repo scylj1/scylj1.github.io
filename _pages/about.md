@@ -17,7 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a PhD student in the Department of Engineering at University of Cambridge, Churchill College, supervised by [Dr.Stephan Goetz](https://stephanmgoetz.github.io/). My research is about the application of Natural Language Processing (NLP) and Large Language Models (LLMs) in the patent domain, including patent analysis and patent text generation. If you are interested in related topics, please feel free to contact me. Prior to this, I obtained my master degree in Advanced Computer Science at University of Cambridge and bachelor degree in Computer Science with Artificial Intelligence at the University of Nottingham.
+I am a PhD student in the Department of Engineering at University of Cambridge, Churchill College, supervised by [Dr.Stephan Goetz](https://stephanmgoetz.github.io/). My research is about the application of Natural Language Processing (NLP) and Large Language Models (LLMs) in the patent domain, including patent analysis and patent text generation. If you are interested in related topics, please feel free to contact me! 
+
+Prior to this, I obtained my master degree in Advanced Computer Science at University of Cambridge and bachelor degree in Computer Science with Artificial Intelligence at the University of Nottingham.
 
 
 # 🔥 News
@@ -26,24 +28,8 @@ I am a PhD student in the Department of Engineering at University of Cambridge, 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/survey.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+- `Arxiv` [Can Large Language Models Generate High-quality Patent Claims?](https://arxiv.org/abs/2406.19465), **Lekang Jiang**, Caiqi Zhang, Pascal A Scherz, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/LLM4DPCG?style=social&label=Code+Stars)](https://github.com/scylj1/LLM4DPCG)
 
-[Natural Language Processing in Patents: A Survey](https://arxiv.org/abs/2403.04105)
-
-**Lekang Jiang**, Stephan Goetz
-
-</div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
-
-# 🎖 Honors and Awards
-- *2024.04*, Master's Prize. 
-- *2022.07*, Excellent Graduate. 
-- *2020.07*, Dean's Scholarship. 
-- *2019.12*, Dream Scholarship. 
-- *2019.07*, Dean's Scholarship. 
 
 # 📖 Educations
 - *2023.10 - 2027.09 (now)*, PhD in Engineering, University of Cambridge. 
@@ -56,3 +42,10 @@ I am a PhD student in the Department of Engineering at University of Cambridge, 
 
 # 💻 Internships
 - *2023.06 - 2023.08*, [Volemic](https://www.volemic.com/), London, UK. Developed language models to build trust infrastructure for emails.
+
+# 🎖 Honors and Awards
+- *2024.04*, Master's Prize. 
+- *2022.07*, Excellent Graduate. 
+- *2020.07*, Dean's Scholarship. 
+- *2019.12*, Dream Scholarship. 
+- *2019.07*, Dean's Scholarship. 
