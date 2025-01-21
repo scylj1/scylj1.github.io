@@ -28,24 +28,16 @@ Prior to this, I obtained my master degree in Advanced Computer Science at Unive
 
 # 📝 Selected Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div></div></div>
-<div class='paper-box-text' markdown="1">
+- ``Preprint`` [Natural Language Processing in Patents: A Survey](https://arxiv.org/abs/2403.04105), **Lekang Jiang**, Stephan Goetz.
 
-[Natural Language Processing in Patents: A Survey](https://arxiv.org/abs/2403.04105)
+- ``Preprint`` [Can Large Language Models Generate High-quality Patent Claims?](https://arxiv.org/abs/2406.19465), **Lekang Jiang**, Caiqi Zhang, Pascal A Scherz, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/LLM4DPCG?style=social&label=Code+Stars)](https://github.com/scylj1/LLM4DPCG)
 
-**Lekang Jiang**, Stephan Goetz
-
-</div>
-</div>
-
-- ``Arxiv`` [Can Large Language Models Generate High-quality Patent Claims?](https://arxiv.org/abs/2406.19465), **Lekang Jiang**, Caiqi Zhang, Pascal A Scherz, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/LLM4DPCG?style=social&label=Code+Stars)](https://github.com/scylj1/LLM4DPCG)
-
-- ``Arxiv`` [Patent-CR: A Dataset for Patent Claim Revision](https://arxiv.org/abs/2412.02549), **Lekang Jiang**, Pascal A Scherz, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/Patent-CR?style=social&label=Code+Stars)](https://github.com/scylj1/Patent-CR)
+- ``Preprint`` [Patent-CR: A Dataset for Patent Claim Revision](https://arxiv.org/abs/2412.02549), **Lekang Jiang**, Pascal A Scherz, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/Patent-CR?style=social&label=Code+Stars)](https://github.com/scylj1/Patent-CR)
 
 # 📖 Educations
 - *2023.10 - 2027.09 (now)*, PhD in Engineering, University of Cambridge. 
-- *2022.10 - 2023.07*, MPhil in Advanced Computer Science, University of Cambridge. 
-- *2018.09 - 2022.08*, Bsc in Computer Science with Artificial Intelligence, University of Nottingham. 
+- *2022.10 - 2023.07*, MPhil in Advanced Computer Science (Distinction), University of Cambridge. 
+- *2018.09 - 2022.08*, Bsc in Computer Science with Artificial Intelligence (First-class), University of Nottingham. 
 
 # 💬 Invited Talks
 - *2022.06*, [Flower Summit 2022](https://flower.ai/events/flower-summit-2022/). The C++ ecosystem for [Flower](https://flower.ai/), an open-source Federated Learning Framework. 
@@ -60,3 +52,8 @@ Prior to this, I obtained my master degree in Advanced Computer Science at Unive
 - *2020.07*, Dean's Scholarship. 
 - *2019.12*, Dream Scholarship. 
 - *2019.07*, Dean's Scholarship. 
+
+# 👀 Page Views
+<div style="width: 400px">
+  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=URFbX8lZgAuBiRuydq2RZu_teM6FhI-4SbRK1MxbbGw"></script>
+</div>
