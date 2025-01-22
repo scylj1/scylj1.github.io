@@ -68,7 +68,7 @@ I am open to collaborations in all related areas. I am also willing to help if y
 
 # 👀 Outside Academia
 - *Badminton*, I am an active member of the Churchill College Badminton Team, regularly competing in inter-college matches. 
-- *Mobile Games*, I play Honor of Kings (王者荣耀), where I have achieved 100 stars in ranked matches and surpassed 2100 points in the Peak Ranking
+- *Mobile Games*, I play Honor of Kings (王者荣耀), where I have achieved 100 stars in Ranked Matches.
 
 Visitors: 
 <div style="width: 300px">
