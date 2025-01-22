@@ -3,14 +3,17 @@ main:
   - title: "About Me"
     url: "/#about-me"
 
+  - title: "Research Interests"
+    url: "/#-research-interests"
+
   - title: "News"
     url: "/#-news"
 
-  - title: "Publications"
-    url: "/#-selected-publications"
-
   - title: "Educations"
     url: "/#-educations"
+
+  - title: "Publications"
+    url: "/#-selected-publications"
 
   - title: "Invited Talks"
     url: "/#-invited-talks"
@@ -20,3 +23,6 @@ main:
 
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
+  
+  - title: "Outside Academia"
+    url: "/#-outside-academia"
