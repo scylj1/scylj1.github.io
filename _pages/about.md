@@ -22,6 +22,8 @@ I am a second-year PhD student in the [Department of Engineering](https://www.en
 
 Prior to this, I obtained my master degree in [Department of Computer Science and Technology](https://www.cst.cam.ac.uk/) at University of Cambridge. My thesis was focused on language models and federated learning, supervised by [Dr.Nic Lane](https://www.cst.cam.ac.uk/people/ndl32). I received my bachelor degree in Computer Science with Artificial Intelligence at the [University of Nottingham](https://www.cst.cam.ac.uk/).
 
+Last updated: 2025.01
+
 # ⭐ Research Interests
 - *General LLMs*: Investigating the fundamental capabilities, limitations, and optimization of LLMs, such as fine-tuning and evaluation methods.
 
@@ -32,6 +34,7 @@ Prior to this, I obtained my master degree in [Department of Computer Science an
 I am open to collaborations in all related areas. I am also willing to help if you are undergraduate students interested in learning how to conduct research with LLMs or planning to apply to Cambridge. 
 
 # 🔥 News
+- *2025.01*: &nbsp;🎉🎉 Two papers are accepted to NAACL 2025. 
 - *2023.10*: &nbsp;🎉🎉 I started my PhD at University of Cambridge. 
 - *2023.07*: &nbsp;🎉🎉 I completed my MPhil with distinction. 
 
@@ -45,9 +48,9 @@ I am open to collaborations in all related areas. I am also willing to help if y
 
 - ``Preprint`` [Natural Language Processing in Patents: A Survey](https://arxiv.org/abs/2403.04105), **Lekang Jiang**, Stephan Goetz.
 
-- ``Preprint`` [Can Large Language Models Generate High-quality Patent Claims?](https://arxiv.org/abs/2406.19465), **Lekang Jiang**, Caiqi Zhang, Pascal A Scherz, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/LLM4DPCG?style=social&label=Code+Stars)](https://github.com/scylj1/LLM4DPCG)
+- ``NAACL 2025`` [Can Large Language Models Generate High-quality Patent Claims?](https://arxiv.org/abs/2406.19465), **Lekang Jiang**, Caiqi Zhang, Pascal A Scherz, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/LLM4DPCG?style=social&label=Code+Stars)](https://github.com/scylj1/LLM4DPCG)
 
-- ``Preprint`` [Patent-CR: A Dataset for Patent Claim Revision](https://arxiv.org/abs/2412.02549), **Lekang Jiang**, Pascal A Scherz, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/Patent-CR?style=social&label=Code+Stars)](https://github.com/scylj1/Patent-CR)
+- ``NAACL 2025`` [Patent-CR: A Dataset for Patent Claim Revision](https://arxiv.org/abs/2412.02549), **Lekang Jiang**, Pascal A Scherz, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/Patent-CR?style=social&label=Code+Stars)](https://github.com/scylj1/Patent-CR)
 
 
 # 💬 Invited Talks
