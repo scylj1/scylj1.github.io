@@ -22,7 +22,8 @@ I am a second-year PhD student in the [Department of Engineering](https://www.en
 
 Prior to this, I obtained my master degree in [Department of Computer Science and Technology](https://www.cst.cam.ac.uk/) at University of Cambridge. My thesis was focused on language models and federated learning, supervised by [Dr.Nic Lane](https://www.cst.cam.ac.uk/people/ndl32). I received my bachelor degree in Computer Science with Artificial Intelligence at the [University of Nottingham](https://www.cst.cam.ac.uk/).
 
-Last updated: 2025.01
+Last updated: 2025.03
+
 
 # ⭐ Research Interests
 - *General LLMs*: Investigating the fundamental capabilities, limitations, and optimization of LLMs, such as fine-tuning and evaluation methods.
@@ -34,9 +35,9 @@ Last updated: 2025.01
 I am open to collaborations in all related areas. I am also willing to help if you are undergraduate students interested in learning how to conduct research with LLMs or planning to apply to Cambridge. 
 
 # 🔥 News
-- *2025.01*: &nbsp;🎉🎉 Two papers are accepted to NAACL 2025. 
-- *2023.10*: &nbsp;🎉🎉 I started my PhD at University of Cambridge. 
-- *2023.07*: &nbsp;🎉🎉 I completed my MPhil with distinction. 
+- *2025.03*: &nbsp;🎉🎉 Our survey is accepted to [Artificial Intelligence Review](https://link.springer.com/journal/10462). 
+- *2025.01*: &nbsp;🎉🎉 Two papers are accepted to [NAACL 2025](https://2025.naacl.org/). 
+- *2023.10*: &nbsp;🎉🎉 I start my PhD at [University of Cambridge](https://www.cam.ac.uk/). 
 
 
 # 📖 Educations
@@ -44,14 +45,19 @@ I am open to collaborations in all related areas. I am also willing to help if y
 - *2022.10 - 2023.07*, MPhil in Advanced Computer Science (Distinction), University of Cambridge. 
 - *2018.09 - 2022.08*, Bsc in Computer Science with Artificial Intelligence (First-class), University of Nottingham. 
 
-# 📝 Selected Publications 
+# 📝 Publications 
 
-- ``Preprint`` [Natural Language Processing in Patents: A Survey](https://arxiv.org/abs/2403.04105), **Lekang Jiang**, Stephan Goetz.
+- <span style="background-color:#3366CC; color:white; padding:2px 6px; border-radius:4px; font-size: 12px; font-weight:bold;">Artificial Intelligence Review, IF=10.7</span> 
+  [Natural Language Processing in Patents: A Survey](https://arxiv.org/abs/2403.04105), **Lekang Jiang**, Stephan Goetz.
 
-- ``NAACL 2025`` [Can Large Language Models Generate High-quality Patent Claims?](https://arxiv.org/abs/2406.19465), **Lekang Jiang**, Caiqi Zhang, Pascal A Scherz, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/LLM4DPCG?style=social&label=Code+Stars)](https://github.com/scylj1/LLM4DPCG)
+- <span style="background-color:#3366CC; color:white; padding:2px 6px; border-radius:4px; font-size: 12px; font-weight:bold;">NAACL 2025</span>
+  [Can Large Language Models Generate High-quality Patent Claims?](https://arxiv.org/abs/2406.19465), **Lekang Jiang**, Caiqi Zhang, Pascal A Scherz, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/LLM4DPCG?style=social&label=Code+Stars)](https://github.com/scylj1/LLM4DPCG) [![Hugging Face](https://img.shields.io/badge/HuggingFace-Dataset-blue?logo=huggingface)](https://huggingface.co/datasets/lj408/HUPD-DCG)
 
-- ``NAACL 2025`` [Patent-CR: A Dataset for Patent Claim Revision](https://arxiv.org/abs/2412.02549), **Lekang Jiang**, Pascal A Scherz, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/Patent-CR?style=social&label=Code+Stars)](https://github.com/scylj1/Patent-CR)
 
+- <span style="background-color:#3366CC; color:white; padding:2px 6px; border-radius:4px; font-size: 12px; font-weight:bold;">NAACL 2025</span>
+  [Patent-CR: A Dataset for Patent Claim Revision](https://arxiv.org/abs/2412.02549), **Lekang Jiang**, Pascal A Scherz, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/Patent-CR?style=social&label=Code+Stars)](https://github.com/scylj1/Patent-CR) [![Hugging Face](https://img.shields.io/badge/HuggingFace-Dataset-blue?logo=huggingface)](https://huggingface.co/datasets/lj408/Patent-CR)
+
+- [See More](https://scholar.google.com/citations?user=XI2SztwAAAAJ&hl=en)
 
 # 💬 Invited Talks
 - *2022.06*, [Flower Summit 2022](https://flower.ai/events/flower-summit-2022/). The C++ ecosystem for [Flower](https://flower.ai/), an open-source Federated Learning Framework. 
