@@ -22,7 +22,7 @@ I am a second-year PhD student in the [Department of Engineering](https://www.en
 
 Prior to this, I obtained my master degree in [Department of Computer Science and Technology](https://www.cst.cam.ac.uk/) at University of Cambridge. My thesis focused on language models and federated learning, supervised by [Dr.Nic Lane](https://www.cst.cam.ac.uk/people/ndl32). I received my bachelor degree in Computer Science with Artificial Intelligence at the [University of Nottingham](https://www.cst.cam.ac.uk/).
 
-Last updated: 2025.05
+Last updated: 2025.08
 
 
 # ⭐ Research Interests
@@ -35,6 +35,7 @@ Last updated: 2025.05
 I am open to collaborations in all related areas. I am also willing to help if you are undergraduate students interested in learning how to conduct research with LLMs or planning to apply to Cambridge. 
 
 # 🔥 News
+- *2025.08*: &nbsp;🎉🎉 One paper is accepted to [EMNLP 2025](https://2025.emnlp.org/).
 - *2025.05*: &nbsp;🎉🎉 One paper is accepted to [ACL 2025](https://2025.aclweb.org/).
 - *2025.03*: &nbsp;🎉🎉 Our survey is accepted to [Artificial Intelligence Review](https://link.springer.com/journal/10462). 
 - *2025.01*: &nbsp;🎉🎉 Two papers are accepted to [NAACL 2025](https://2025.naacl.org/). 
@@ -48,20 +49,20 @@ I am open to collaborations in all related areas. I am also willing to help if y
 
 # 📝 Publications 
 
-- <span style="background-color:#3366CC; color:white; padding:2px 6px; border-radius:4px; font-size: 12px; font-weight:bold;">Artificial Intelligence Review, IF=10.7</span> 
-  [Natural Language Processing in the Patent Domain: A Survey](https://link.springer.com/article/10.1007/s10462-025-11168-z), **Lekang Jiang**, Stephan Goetz.
+- <span style="background-color:#3366CC; color:white; padding:2px 6px; border-radius:4px; font-size: 12px; font-weight:bold;">EMNLP 2025</span>
+  [Enriching Patent Claim Generation with European Patent Dataset](https://arxiv.org/abs/2505.12568), **Lekang Jiang**, Chengzu Li, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/EPD?style=social&label=Code+Stars)](https://github.com/scylj1/EPD)
 
 - <span style="background-color:#3366CC; color:white; padding:2px 6px; border-radius:4px; font-size: 12px; font-weight:bold;">ACL 2025</span>
   [Towards Better Evaluation for Generated Patent Claims](https://arxiv.org/abs/2505.11095), **Lekang Jiang**, Pascal A Scherz, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/PatClaimEval?style=social&label=Code+Stars)](https://github.com/scylj1/PatClaimEval) 
-
-- <span style="background-color:#3366CC; color:white; padding:2px 6px; border-radius:4px; font-size: 12px; font-weight:bold;">NAACL 2025</span>
-  [Can Large Language Models Generate High-quality Patent Claims?](https://aclanthology.org/2025.findings-naacl.70/), **Lekang Jiang**, Caiqi Zhang, Pascal A Scherz, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/LLM4DPCG?style=social&label=Code+Stars)](https://github.com/scylj1/LLM4DPCG) 
+  
+- <span style="background-color:#3366CC; color:white; padding:2px 6px; border-radius:4px; font-size: 12px; font-weight:bold;">Artificial Intelligence Review, IF=13.9</span> 
+  [Natural Language Processing in the Patent Domain: A Survey](https://link.springer.com/article/10.1007/s10462-025-11168-z), **Lekang Jiang**, Stephan Goetz.
 
 - <span style="background-color:#3366CC; color:white; padding:2px 6px; border-radius:4px; font-size: 12px; font-weight:bold;">NAACL 2025</span>
   [Patent-CR: A Dataset for Patent Claim Revision](https://aclanthology.org/2025.naacl-long.116/), **Lekang Jiang**, Pascal A Scherz, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/Patent-CR?style=social&label=Code+Stars)](https://github.com/scylj1/Patent-CR)
 
-- <span style="background-color:#3366CC; color:white; padding:2px 6px; border-radius:4px; font-size: 12px; font-weight:bold;">Preprint</span>
-  [Enriching Patent Claim Generation with European Patent Dataset](https://arxiv.org/abs/2505.12568), **Lekang Jiang**, Chengzu Li, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/EPD?style=social&label=Code+Stars)](https://github.com/scylj1/EPD)
+- <span style="background-color:#3366CC; color:white; padding:2px 6px; border-radius:4px; font-size: 12px; font-weight:bold;">NAACL 2025</span>
+  [Can Large Language Models Generate High-quality Patent Claims?](https://aclanthology.org/2025.findings-naacl.70/), **Lekang Jiang**, Caiqi Zhang, Pascal A Scherz, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/LLM4DPCG?style=social&label=Code+Stars)](https://github.com/scylj1/LLM4DPCG) 
 
 - [See More](https://scholar.google.com/citations?user=XI2SztwAAAAJ&hl=en)
 
@@ -71,8 +72,9 @@ I am open to collaborations in all related areas. I am also willing to help if y
 
 
 # 💻 Internships
+- *2025.07 - now*, [ByteDance](https://www.bytedance.com/en/), Beijing, China. 
 - *2023.06 - 2023.08*, [Volemic](https://www.volemic.com/), London, UK. 
-- *2021.06 - 2022.02*, [Cambridge Machine Learning Systems Lab](https://mlsys.cst.cam.ac.uk/), Cambridge, UK.
+- *2021.06 - 2021.08*, [Cambridge Machine Learning Systems Lab](https://mlsys.cst.cam.ac.uk/), Cambridge, UK.
 
 
 # 🎖 Honors and Awards
