@@ -22,7 +22,7 @@ I am a second-year PhD student in the [Department of Engineering](https://www.en
 
 Prior to this, I obtained my master degree in [Department of Computer Science and Technology](https://www.cst.cam.ac.uk/) at University of Cambridge. My thesis focused on language models and federated learning, supervised by [Dr.Nic Lane](https://www.cst.cam.ac.uk/people/ndl32). I received my bachelor degree in Computer Science with Artificial Intelligence at the [University of Nottingham](https://www.cst.cam.ac.uk/).
 
-Last updated: 2025.08
+Last updated: 2025.09
 
 
 # ⭐ Research Interests
@@ -72,9 +72,9 @@ I am open to collaborations in all related areas. I am also willing to help if y
 
 
 # 💻 Internships
-- *2025.07 - now*, [ByteDance](https://www.bytedance.com/en/), Beijing, China. 
-- *2023.06 - 2023.08*, [Volemic](https://www.volemic.com/), London, UK. 
-- *2021.06 - 2021.08*, [Cambridge Machine Learning Systems Lab](https://mlsys.cst.cam.ac.uk/), Cambridge, UK.
+- *2025.07 - 2025.09*, [ByteDance](https://www.bytedance.com/en/), Beijing, China. **Text-to-Speech (TTS) Model for Telemarketing**
+- *2023.06 - 2023.08*, [Volemic](https://www.volemic.com/), London, UK. **LLMs for Trustworthy Email Infrastructure** 
+- *2021.06 - 2021.08*, [Cambridge Machine Learning Systems Lab](https://mlsys.cst.cam.ac.uk/), Cambridge, UK. **C++ Federated Learning (FL) Framework**
 
 
 # 🎖 Honors and Awards
