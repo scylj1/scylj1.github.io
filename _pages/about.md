@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🙋 About Me
-I am a second-year PhD student in the [Department of Engineering](https://www.eng.cam.ac.uk/) at [University of Cambridge](https://www.cam.ac.uk/), [Churchill College](https://www.chu.cam.ac.uk/), supervised by [Dr.Stephan Goetz](https://scholar.google.com/citations?user=qC4py3YAAAAJ&hl=en). My research is about the application of Natural Language Processing (NLP) and Large Language Models (LLMs) in the patent domain, including patent analysis and patent text generation. If you are interested in related topics, please feel free to contact me! 
+I am a third-year PhD student in the [Department of Engineering](https://www.eng.cam.ac.uk/) at [University of Cambridge](https://www.cam.ac.uk/), [Churchill College](https://www.chu.cam.ac.uk/), supervised by [Dr.Stephan Goetz](https://scholar.google.com/citations?user=qC4py3YAAAAJ&hl=en). My research is about the application of Natural Language Processing (NLP) and Large Language Models (LLMs) in the patent domain, including patent analysis and patent text generation. If you are interested in related topics, please feel free to contact me! 
 
 Prior to this, I obtained my master degree in [Department of Computer Science and Technology](https://www.cst.cam.ac.uk/) at University of Cambridge. My thesis focused on language models and federated learning, supervised by [Dr.Nic Lane](https://www.cst.cam.ac.uk/people/ndl32). I received my bachelor degree in Computer Science with Artificial Intelligence at the [University of Nottingham](https://www.cst.cam.ac.uk/).
 
