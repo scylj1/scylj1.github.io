@@ -35,6 +35,7 @@ Last updated: 2025.08
 I am open to collaborations in all related areas. I am also willing to help if you are undergraduate students interested in learning how to conduct research with LLMs or planning to apply to Cambridge. 
 
 # 🔥 News
+- *2026.04*: &nbsp;🎉🎉 One paper is accepted to [ACL 2026](https://2026.aclweb.org/).
 - *2025.08*: &nbsp;🎉🎉 One paper is accepted to [EMNLP 2025](https://2025.emnlp.org/).
 - *2025.05*: &nbsp;🎉🎉 One paper is accepted to [ACL 2025](https://2025.aclweb.org/).
 - *2025.03*: &nbsp;🎉🎉 Our survey is accepted to [Artificial Intelligence Review](https://link.springer.com/journal/10462). 
@@ -48,6 +49,9 @@ I am open to collaborations in all related areas. I am also willing to help if y
 - *2018.09 - 2022.08*, Bsc in Computer Science with Artificial Intelligence (First-class), University of Nottingham. 
 
 # 📝 Publications 
+
+- <span style="background-color:#3366CC; color:white; padding:2px 6px; border-radius:4px; font-size: 12px; font-weight:bold;">ACL 2026</span>
+  [Reasoning for Hierarchical Text Classification: The Case of Patents](https://arxiv.org/abs/2510.07167), **Lekang Jiang**, Wenjun Sun, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/EPD?style=social&label=Code+Stars)](https://github.com/scylj1/RHC)
 
 - <span style="background-color:#3366CC; color:white; padding:2px 6px; border-radius:4px; font-size: 12px; font-weight:bold;">EMNLP 2025</span>
   [Enriching Patent Claim Generation with European Patent Dataset](https://arxiv.org/abs/2505.12568), **Lekang Jiang**, Chengzu Li, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/EPD?style=social&label=Code+Stars)](https://github.com/scylj1/EPD)
@@ -73,7 +77,8 @@ I am open to collaborations in all related areas. I am also willing to help if y
 
 
 # 💻 Internships
-- *2025.07 - now*, [ByteDance](https://www.bytedance.com/en/), Beijing, China.
+- *2026.04 - now*, [Tencent](https://www.tencent.com/en-us/about.html), London, UK.
+- *2025.07 - 2025-09*, [ByteDance](https://www.bytedance.com/en/), Beijing, China.
 - *2023.06 - 2023.08*, [Volemic](https://www.volemic.com/), London, UK. 
 - *2021.06 - 2021.08*, [Cambridge Machine Learning Systems Lab](https://mlsys.cst.cam.ac.uk/), Cambridge, UK.
 

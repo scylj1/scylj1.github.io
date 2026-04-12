@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Lekang Jiang"
   avatar           : "images/life_cam.jpg"
-  bio              : "University of Cambridge"
+  bio              : "lj408 at cam dot ac dot uk"
   location         : "Cambridge, UK"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=XI2SztwAAAAJ"
-  email            : "lj408 at cam dot ac dot uk"
+  email            : 
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
