@@ -22,7 +22,7 @@ I am a second-year PhD student in the [Department of Engineering](https://www.en
 
 Prior to this, I obtained my master degree in [Department of Computer Science and Technology](https://www.cst.cam.ac.uk/) at University of Cambridge. My thesis focused on language models and federated learning, supervised by [Dr.Nic Lane](https://www.cst.cam.ac.uk/people/ndl32). I received my bachelor degree in Computer Science with Artificial Intelligence at the [University of Nottingham](https://www.cst.cam.ac.uk/).
 
-Last updated: 2025.08
+Last updated: 2026.04
 
 
 # ⭐ Research Interests
@@ -54,10 +54,10 @@ I am open to collaborations in all related areas. I am also willing to help if y
   [Reasoning for Hierarchical Text Classification: The Case of Patents](https://arxiv.org/abs/2510.07167), **Lekang Jiang**, Wenjun Sun, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/EPD?style=social&label=Code+Stars)](https://github.com/scylj1/RHC)
 
 - <span style="background-color:#3366CC; color:white; padding:2px 6px; border-radius:4px; font-size: 12px; font-weight:bold;">EMNLP 2025</span>
-  [Enriching Patent Claim Generation with European Patent Dataset](https://arxiv.org/abs/2505.12568), **Lekang Jiang**, Chengzu Li, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/EPD?style=social&label=Code+Stars)](https://github.com/scylj1/EPD)
+  [Enriching Patent Claim Generation with European Patent Dataset](https://aclanthology.org/2025.findings-emnlp.408/), **Lekang Jiang**, Chengzu Li, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/EPD?style=social&label=Code+Stars)](https://github.com/scylj1/EPD)
 
 - <span style="background-color:#3366CC; color:white; padding:2px 6px; border-radius:4px; font-size: 12px; font-weight:bold;">ACL 2025</span>
-  [Towards Better Evaluation for Generated Patent Claims](https://arxiv.org/abs/2505.11095), **Lekang Jiang**, Pascal A Scherz, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/PatClaimEval?style=social&label=Code+Stars)](https://github.com/scylj1/PatClaimEval) 
+  [Towards Better Evaluation for Generated Patent Claims](https://aclanthology.org/2025.acl-long.190/), **Lekang Jiang**, Pascal A Scherz, Stephan Goetz. [![](https://img.shields.io/github/stars/scylj1/PatClaimEval?style=social&label=Code+Stars)](https://github.com/scylj1/PatClaimEval) 
 
 - <span style="background-color:#3366CC; color:white; padding:2px 6px; border-radius:4px; font-size: 12px; font-weight:bold;">Artificial Intelligence Review, IF=13.9</span> 
   [Natural Language Processing in the Patent Domain: A Survey](https://link.springer.com/article/10.1007/s10462-025-11168-z), **Lekang Jiang**, Stephan Goetz.
