@@ -5,6 +5,7 @@ authors:
   - Bohan Tang
   - Stephan Goetz
   - Yiwen Guo
+equal_contribution: 2
 date: '2026-08-03T00:00:00Z'
 publication_types: ['article']
 publication_category: preprint

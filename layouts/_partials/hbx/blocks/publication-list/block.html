@@ -12,6 +12,7 @@
 {{ $scholar := hugo.Data.google_scholar }}
 {{ $scholarPublications := $scholar.publications | default dict }}
 {{ $scholarURL := $scholar.profile_url | default "https://scholar.google.com/citations?user=XI2SztwAAAAJ&hl=en" }}
+{{ $hasEqualContribution := false }}
 
 <div class="publication-list-shell" data-publication-list>
   <header class="publication-list-heading">
@@ -99,8 +100,10 @@
               <span>{{ $item.Date.Format "2006" }}</span>
             </div>
           </div>
+          {{ $equalContribution := int ($item.Params.equal_contribution | default 0) }}
+          {{ if gt $equalContribution 0 }}{{ $hasEqualContribution = true }}{{ end }}
           <p class="publication-authors">
-            {{ range $authorIndex, $author := $item.Params.authors }}{{ if gt $authorIndex 0 }}, {{ end }}{{ if eq $author "me" }}<strong>Lekang Jiang</strong>{{ else }}{{ $author }}{{ end }}{{ end }}
+            {{ range $authorIndex, $author := $item.Params.authors }}{{ if gt $authorIndex 0 }}, {{ end }}{{ if eq $author "me" }}<strong>Lekang Jiang</strong>{{ else }}{{ $author }}{{ end }}{{ if lt $authorIndex $equalContribution }}<sup>*</sup>{{ end }}{{ end }}
           </p>
           {{ with $venue }}<p class="publication-venue">{{ . }}</p>{{ end }}
           {{ with $item.Params.summary }}<p class="publication-summary">{{ . }}</p>{{ end }}
@@ -114,5 +117,8 @@
     {{ end }}
   </ol>
   <p class="publication-empty" data-publication-empty hidden>No publications in this category yet.</p>
-  {{ with $scholar.updated_at }}<p class="publication-citation-note">Citation counts from Google Scholar, updated {{ . }}.</p>{{ end }}
+  <div class="publication-notes">
+    {{ if $hasEqualContribution }}<p><sup>*</sup> Equal contribution.</p>{{ end }}
+    {{ with $scholar.updated_at }}<p>Citation counts from Google Scholar, updated {{ . }}.</p>{{ end }}
+  </div>
 </div>
