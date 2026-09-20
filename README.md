@@ -1,72 +1,248 @@
+# [The Academic CV That Gets You Hired](https://github.com/HugoBlox/hugo-theme-academic-cv)
 
-<h1 align="center">
-AcadHomepage
-</h1>
+[![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/academic-cv?utm_source=github&utm_medium=readme&utm_content=preview)
+
+<!-- TODO: Replace with a short demo video showing Hugo Chat generating an academic profile page -->
+<!-- https://github.com/user-attachments/assets/REPLACE_ME -->
+
+<h1 align="center">The Portfolio That Works While You Sleep</h1>
+
+<p align="center">
+  <strong>Your unfair advantage in academia.</strong><br/>
+  Stop sending PDFs into the void. Build a living portfolio that boosts citations, attracts collaborators, and lands offers — all from simple Markdown files you own.<br/>
+  Built on <a href="https://github.com/HugoBlox/kit">HugoBlox</a> — the open-source framework where AI generates your pages and you own everything as Markdown.
+</p>
+
+<p align="center">
+  <a href="https://hugoblox.com/templates/academic-cv?utm_source=github&utm_medium=readme&utm_content=cta_top"><b>Deploy Free (60s)</b></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=cta_top_academic-cv"><b>Customize with AI</b></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://hugoblox.com/templates/academic-cv?utm_source=github&utm_medium=readme&utm_content=demo">Live Demo</a>
+</p>
 
 <div align="center">
 
-[![](https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/forks/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/issues/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/license/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io/blob/main/LICENSE)  | [中文文档](./docs/README-zh.md) 
+  <a href="https://github.com/HugoBlox/hugo-theme-academic-cv">
+    <img src="https://img.shields.io/github/stars/HugoBlox/hugo-theme-academic-cv?label=Star&logo=github&style=flat-square&color=181717" alt="GitHub Stars">
+  </a>
+  <a href="https://discord.gg/z8wNYzb">
+    <img src="https://img.shields.io/discord/722225264733716590?label=Discord&logo=discord&logoColor=white&style=flat-square&color=5865F2" alt="Discord">
+  </a>
+  <a href="https://github.com/HugoBlox/kit">
+    <img src="https://img.shields.io/github/stars/HugoBlox/kit?label=HugoBlox&logo=github&style=flat-square&color=181717" alt="HugoBlox Stars">
+  </a>
+
 </div>
 
-<p align="center">A Modern and Responsive Academic Personal Homepage</p>
-
 <p align="center">
-    <br>
-    <img src="docs/screenshot.png" width="100%"/>
-    <br>
+  <sub>Part of the <a href="https://github.com/HugoBlox/kit"><strong>HugoBlox</strong></a> ecosystem · Trusted by <strong>150,000+</strong> researchers at <strong>MIT, Stanford, Google & NVIDIA</strong> · Rated <strong>4.9/5</strong> (official survey) · Since <strong>2016</strong></sub>
 </p>
 
-Some examples:
-- [Demo Page](https://rayeren.github.io/acad-homepage.github.io/)
-- [Personal Homepage of the author](https://rayeren.github.io/)
+---
 
-## Key Features
-- **Automatically update google scholar citations**: using the google scholar crawler and github action, this REPO can update the author citations and publication citations automatically.
-- **Support Google analytics**: you can trace the traffics of your homepage by easy configuration.
-- **Responsive**: this homepage automatically adjust for different screen sizes and viewports.
-- **Beautiful and Simple Design**: this homepage is beautiful and simple, which is very suitable for academic personal homepage.
-- **SEO**: search Engine Optimization (SEO) helps search engines find the information you publish on your homepage easily, then rank it against similar websites.
+## Why This Template?
 
-## Quick Start
+Most academic CVs are static PDFs that get lost in the pile. This is an **always-on portfolio** that works 24/7 to advance your career:
 
-1. Fork this REPO and rename to `USERNAME.github.io`, where `USERNAME` is your github USERNAME.
-1. Configure the google scholar citation crawler:
-    1. Find your google scholar ID in the url of your google scholar page (e.g., https://scholar.google.com/citations?user=SCHOLAR_ID), where `SCHOLAR_ID` is your google scholar ID.
-    1. Set GOOGLE_SCHOLAR_ID variable to your google scholar ID in `Settings -> Secrets -> Actions -> New repository secret` of the REPO website with `name=GOOGLE_SCHOLAR_ID` and `value=SCHOLAR_ID`.
-    1. Click the `Action` of the REPO website and enable the workflows by clicking *"I understand my workflows, go ahead and enable them"*. This github action will generate google scholar citation stats data `gs_data.json` in `google-scholar-stats` branch of your REPO. When you update your main branch, this action will be triggered. This action will also be trigger 08:00 UTC everyday.
-1. Generate favicon using [favicon-generator](https://redketchup.io/favicon-generator) and download all generated files to `REPO/images`.
-1. Modify the configuration of your homepage `_config.yml`:
-    1. `title`: the title of your homepage
-    1. `description`: the description of your homepage
-    1. `repository`: USER_NAME/REPO_NAME  
-    1. `google_analytics_id` (optional): google analytics ID
-    1. SEO Related keys (optional): get these keys from search engine consoles (e.g. Google, Bing and Baidu) and paste here.
-    1. `author`: the author information of this homepage, including some other websites, emails, city and univeristy.
-    1. More configuration details are described in the comments.
-1. Add your homepage content in `_pages/about.md`.
-    1. You can use html+markdown syntax just same as jekyll.
-    1. You can use a `<span>` tag with class `show_paper_citations` and attribute `data` to display the citations of your paper. Set the data to the google scholar paper ID. For
-        ```html
-        <span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span>
-        ``` 
-        > Q: How to get the google scholar paper ID?   
-        > A: Enter your google scholar homepage and click the paper name. Then you can see the paper ID from `citation_for_view=XXXX`, where `XXXX` is the required paper ID.
-1. Your page will be published at `https://USERNAME.github.io`.
+- **Students & grads** applying to top labs and industry roles — stand out with a living portfolio, not a flat PDF
+- **Researchers** who want a citable online presence with publications, projects, and talks in one place
+- **Faculty & PIs** showcasing their lab, group news, and team members
+- **Anyone with publications** who wants auto-imported citations from BibTeX/DOI without manual formatting
 
-## Debug Locally
+> *"My citations went up 3x after switching to this template. Colleagues started finding my work through Google Scholar links back to my site. The BibTeX auto-sync is a lifesaver."*
+> — **Dr. Li Zhang**, AI Research Scientist
 
-1. Clone your REPO to local using `git clone`.
-1. Install Jekyll building environment, including `Ruby`, `RubyGems`, `GCC` and `Make` following [the installation guide](https://jekyllrb.com/docs/installation/#requirements).
-1. Run `bash run_server.sh` to start Jekyll livereload server.
-1. Open http://127.0.0.1:4000 in your browser.
-1. If you change the source code of the website, the livereload server will automatically refresh.
-1. When you finish the modification of your homepage, `commit` your changings and `push` to your remote REPO using `git` command.
+> *"I set this up during a weekend and my PhD students had their profiles live by Monday. They just edit Markdown — no tickets to IT, no WordPress logins."*
+> — **Prof. Sarah Chen**, Computer Science, ETH Zürich
 
-# Acknowledges
+<p align="center">
+  <a href="https://hugoblox.com/templates/academic-cv?utm_source=github&utm_medium=readme&utm_content=cta_mid">
+    <img src="https://img.shields.io/badge/⚡️%20Deploy%20Your%20CV%20in%2060s-7c3aed?style=for-the-badge" alt="Deploy this template" width="400">
+  </a>
+</p>
 
-- AcadHomepage incorporates Font Awesome, which is distributed under the terms of the SIL OFL 1.1 and MIT License.
-- AcadHomepage is influenced by the github repo [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes), which is distributed under the MIT License.
-- AcadHomepage is influenced by the github repo [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io), which is distributed under the MIT License.
+---
+
+## Features
+
+| Feature | Benefit |
+| :--- | :--- |
+| **BibTeX / DOI auto-import** | Drop in a `.bib` file — publication pages generated automatically with proper citations. |
+| **Jupyter & RMarkdown** | Publish `.ipynb` notebooks as beautiful posts — code, outputs, and narrative intact. |
+| **LaTeX math** | Native rendering for equations and technical writing. |
+| **Markdown slides** | Present with reveal.js — math, syntax highlighting, diagrams, speaker notes. |
+| **SEO & AI-ready** | Optimized for search engines and LLMs — your work gets found, cited, and recommended. |
+| **AI page generation** | Describe what you need to [Hugo Chat](https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=features_academic-cv) — get structured pages with correct front matter instantly. |
+| **Visual editor** | Drag-and-drop blocks in VS Code with [Ownable CMS](https://marketplace.visualstudio.com/items?itemName=ownable.ownable). No coding needed. |
+| **Plain Markdown** | Every file is human-readable. No database, no lock-in, take your content anywhere. |
+| **Free hosting** | Deploy to GitHub Pages, Netlify, Vercel, or Cloudflare — all free tier. |
+
+---
+
+## 🚀 Get Started
+
+### Step 1: Deploy Your Site
+
+**Option A: Launch in browser** (fastest — no install needed)
+
+> [!TIP]
+> Deploy a live site in 60 seconds — no software to install:
+> [**Deploy Academic CV free**](https://hugoblox.com/templates/academic-cv?utm_source=github&utm_medium=readme&utm_content=get_started)
+
+**Option B: Use the CLI**
+
+```bash
+# Requires Hugo Extended & Node.js
+npx hugoblox create site --template academic-cv
+```
+
+### Step 2: Customize With AI + Visual Editing
+
+<table>
+<tr>
+<td width="50%">
+
+**✨ Hugo Chat** — AI customization
+
+Tell Hugo Chat what you want in plain English. It generates structured pages with the right front matter, shortcodes, and blocks for this template.
+
+> *"Add a publications page with my 2024 papers from this BibTeX file"*
+
+[**Try Hugo Chat — free**](https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=step2_academic-cv)
+
+</td>
+<td width="50%">
+
+**Ownable CMS** — visual editing in VS Code
+
+1. Install [Ownable CMS](https://marketplace.visualstudio.com/items?itemName=ownable.ownable)
+2. Open your project in VS Code
+3. Click the Ownable icon to start editing visually
+
+</td>
+</tr>
+</table>
+
+![Ownable CMS in Action](https://raw.githubusercontent.com/HugoBlox/kit/main/.github/media/studio/slide-1.webp)
+*Ownable CMS: Drag-and-drop page builder inside VS Code.*
+
+> [!NOTE]
+> **New to Hugo?** No problem. You don't need to know Hugo — edit visually or write Markdown. Hugo is the engine under the hood that makes your site fast, secure, and free to host. [Learn more →](https://docs.ownable.dev/?utm_source=github&utm_medium=readme&utm_content=docs_academic-cv)
+
+---
+
+## 💎 Go Premium
+
+Love the free version? **Academic CV Pro** and **Resume Pro** take it further:
+
+- Premium designs that make an unforgettable first impression
+- Advanced timeline and layout options
+- Full-featured course/lecture sections
+- Remove attribution, priority support
+
+| | **Academic CV** (Free) | **Academic CV Pro** |
+| :--- | :---: | :---: |
+| Design | Professional & clean | **Premium designs** |
+| Layouts | Standard sections | **Advanced timelines** |
+| Courses/lectures | Basic | **Full-featured** |
+| Support | Community | **Priority** |
+
+<p align="center">
+  <a href="https://hugoblox.com/pricing?utm_source=github&utm_medium=readme&utm_content=premium_academic-cv"><b>Compare plans</b></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://hugoblox.com/templates/academic-cv-pro?utm_source=github&utm_medium=readme&utm_content=premium_deploy_academic-cv"><b>Deploy Academic CV Pro</b></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://hugoblox.com/templates/resume-pro?utm_source=github&utm_medium=readme&utm_content=premium_deploy_resume"><b>Deploy Resume Pro</b></a>
+</p>
+
+---
+
+## 🏆 Why HugoBlox?
+
+> *Why not just use WordPress, Webflow, or an AI builder like Lovable?*
+
+| | **AI builders** (Lovable, v0) | **CMS platforms** (WordPress, Webflow) | **HugoBlox** |
+| :--- | :---: | :---: | :---: |
+| AI generates your pages | Yes | No | **Yes** |
+| You own the output as readable files | No — React code | No — database | **Yes — Markdown** |
+| Free to host forever | No | No | **Yes** |
+| Human-editable without the tool | Barely | No | **Yes — it's Markdown** |
+| Open source | No | No | **Yes — MIT licensed** |
+
+> [!IMPORTANT]
+> Your content is plain Markdown files. No lock-in, no database, no vendor dependency. If you ever want to leave, take your files and go.
+
+---
+
+## FAQ
+
+<details>
+<summary><b>Do I need to know Hugo?</b></summary>
+No. Edit visually with Ownable CMS or write Markdown. Hugo is the build engine — you don't need to touch it.
+</details>
+
+<details>
+<summary><b>Can I import my existing publications?</b></summary>
+Yes. Drop a BibTeX file and publication pages are generated automatically with proper citations, metadata, and links.
+</details>
+
+<details>
+<summary><b>Can I host for free?</b></summary>
+Yes. GitHub Pages, Netlify, Vercel, and Cloudflare Pages all have free tiers for static sites.
+</details>
+
+<details>
+<summary><b>Can I migrate my content later?</b></summary>
+Yes. Your site is just Markdown files in a folder. Copy them anywhere.
+</details>
+
+<details>
+<summary><b>What's Hugo Chat?</b></summary>
+An AI assistant trained on Hugo and HugoBlox docs. Describe what you want and it generates the right pages with correct front matter. <a href="https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=faq_academic-cv">Free to try.</a>
+</details>
+
+<details>
+<summary><b>Can I cancel Pro anytime?</b></summary>
+Yes. No questions asked.
+</details>
+
+---
+
+<h2 align="center">🚀 Ready to launch?</h2>
+
+<p align="center">
+  Deploy in 60 seconds. Customize with AI. Own it as Markdown forever.
+</p>
+
+<p align="center">
+  <a href="https://hugoblox.com/templates/academic-cv?utm_source=github&utm_medium=readme&utm_content=cta_final"><b>Deploy Academic CV — free</b></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=cta_final_academic-cv"><b>Customize with AI</b></a>
+</p>
+
+---
+
+## Community & Support
+
+- 💬 [**Discord**](https://discord.gg/z8wNYzb) — ask questions, share your site
+- 📚 [**Docs**](https://docs.ownable.dev/?utm_source=github&utm_medium=readme&utm_content=community_academic-cv)
+- ⭐ [**Star HugoBlox**](https://github.com/HugoBlox/kit) — help others find it
+- 🐦 [**Follow on X**](https://x.com/GoOwnable)
+
+### Sponsors
+
+[**❤️ Sponsor on GitHub**](https://github.com/sponsors/gcushen) | [**🏢 Become a Partner**](https://github.com/sponsors/gcushen)
+
+---
+
+Copyright 2016-present [**Lore Labs**](https://lore.tech/?utm_source=github&utm_medium=readme).
+Released under the [MIT License](./LICENSE.md).
+
+<p align="center">
+  <sub>HugoBlox is a trademark of Lore Labs.</sub>
+</p>
+
+<!--START_SECTION:news-->
+<!--Updated at 2026-09-20T02:15:06.569Z-->
+<!--END_SECTION:news-->

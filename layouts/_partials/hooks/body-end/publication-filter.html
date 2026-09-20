@@ -1,0 +1,6 @@
+{{ if .IsHome }}
+  {{ with resources.Get "js/hbx/blocks/publication-list/publication-list.js" }}
+    {{ $script := . | js.Build | resources.Minify | fingerprint "sha256" }}
+    <script defer src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+  {{ end }}
+{{ end }}

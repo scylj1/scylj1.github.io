@@ -1,0 +1,46 @@
+@layer components {
+  .research-interests-shell {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8;
+  }
+
+  .research-interests-heading {
+    @apply mb-8 w-full sm:mb-10;
+  }
+
+  .research-interests-title {
+    @apply flex items-center gap-4;
+  }
+
+  .research-interests-title > span {
+    @apply flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary-100 text-primary-600 dark:bg-primary-900/50 dark:text-primary-400;
+  }
+
+  .research-interests-title h2 {
+    @apply text-3xl font-black tracking-tight text-slate-950 dark:text-white sm:text-4xl;
+  }
+
+  .research-interests-intro {
+    @apply mt-4 text-base leading-7 text-slate-600 dark:text-slate-400 sm:text-lg;
+  }
+
+  .research-interests-grid {
+    @apply grid grid-cols-1 gap-8 border-y border-slate-200 py-9 dark:border-slate-700 md:grid-cols-3 md:gap-0;
+  }
+
+  .research-interest-card {
+    @apply px-0 md:px-8 md:first:pl-0 md:last:pr-0 md:not-first:border-l md:not-first:border-slate-200 md:dark:not-first:border-slate-700;
+  }
+
+  .research-interest-number {
+    @apply text-xs font-black tracking-[0.2em] text-primary-500;
+  }
+
+  .research-interest-card h3 {
+    @apply mt-5 text-xl font-black leading-snug tracking-tight text-slate-950 dark:text-white sm:text-2xl;
+  }
+
+  .research-interest-card p {
+    @apply mt-3 text-sm leading-7 text-slate-600 dark:text-slate-400;
+  }
+
+}

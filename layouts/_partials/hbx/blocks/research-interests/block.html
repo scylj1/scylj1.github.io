@@ -1,0 +1,23 @@
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $content := $block.content }}
+
+<div class="research-interests-shell">
+  <header class="research-interests-heading">
+    <div class="research-interests-title">
+      <span>{{ partial "functions/get_icon" (dict "name" "hero/sparkles" "attributes" "class='h-6 w-6'") }}</span>
+      <h2>{{ $content.title }}</h2>
+    </div>
+    {{ with $content.text }}<div class="research-interests-intro">{{ . | $page.RenderString }}</div>{{ end }}
+  </header>
+
+  <div class="research-interests-grid">
+    {{ range $index, $interest := $content.items }}
+      <article class="research-interest-card">
+        <span class="research-interest-number">0{{ add $index 1 }}</span>
+        <h3>{{ $interest.title }}</h3>
+        <p>{{ $interest.text }}</p>
+      </article>
+    {{ end }}
+  </div>
+</div>

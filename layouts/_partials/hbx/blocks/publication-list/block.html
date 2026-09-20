@@ -1,0 +1,118 @@
+{{ $block := .wcBlock }}
+{{ $content := $block.content }}
+{{ $items := where site.RegularPages "Section" "publications" }}
+{{ $items = $items.ByDate.Reverse }}
+{{ if $content.featured_only }}
+  {{ $items = where $items "Params.featured" true }}
+{{ end }}
+{{ $count := int ($content.count | default 0) }}
+{{ if gt $count 0 }}
+  {{ $items = first $count $items }}
+{{ end }}
+{{ $scholar := hugo.Data.google_scholar }}
+{{ $scholarPublications := $scholar.publications | default dict }}
+{{ $scholarURL := $scholar.profile_url | default "https://scholar.google.com/citations?user=XI2SztwAAAAJ&hl=en" }}
+
+<div class="publication-list-shell" data-publication-list>
+  <header class="publication-list-heading">
+    <div class="publication-heading-copy">
+      <div class="publication-heading-title">
+        <span>{{ partial "functions/get_icon" (dict "name" "hero/document-text" "attributes" "class='h-6 w-6'") }}</span>
+        <h2>{{ $content.title }}</h2>
+      </div>
+      {{ with $content.text }}<div class="publication-heading-intro">{{ . }}</div>{{ end }}
+    </div>
+    {{ with $content.more_url }}<a href="{{ . }}" target="_blank" rel="noopener">View all publications <span aria-hidden="true">→</span></a>{{ end }}
+  </header>
+
+  {{ if or $content.show_filters $content.show_sort }}
+    <div class="publication-controls">
+      {{ if $content.show_filters }}
+        <div class="publication-filters" role="group" aria-label="Filter publications by type">
+          <button type="button" data-publication-filter="all" aria-pressed="true">All</button>
+          <button type="button" data-publication-filter="conference" aria-pressed="false">Conference</button>
+          <button type="button" data-publication-filter="journal" aria-pressed="false">Journal</button>
+          <button type="button" data-publication-filter="workshop" aria-pressed="false">Workshop</button>
+          <button type="button" data-publication-filter="preprint" aria-pressed="false">Preprint</button>
+        </div>
+      {{ end }}
+      {{ if $content.show_sort }}
+        <label class="publication-sort">
+          <span>Sort by</span>
+          <select data-publication-sort aria-label="Sort publications">
+            <option value="year">Year</option>
+            <option value="citations">Citations</option>
+          </select>
+        </label>
+      {{ end }}
+    </div>
+  {{ end }}
+
+  <ol class="publication-list">
+    {{ range $index, $item := $items }}
+      {{ $publication := $item.Params.publication }}
+      {{ $venue := "" }}
+      {{ with $publication }}
+        {{ $venue = .short_name | default .name }}
+      {{ end }}
+      {{ $category := $item.Params.publication_category | default "" | lower }}
+      {{ if not $category }}
+        {{ $category = cond (in $item.Params.publication_types "article-journal") "journal" "conference" }}
+      {{ end }}
+      {{ $type := "Conference" }}
+      {{ if eq $category "journal" }}{{ $type = "Journal" }}{{ end }}
+      {{ if eq $category "workshop" }}{{ $type = "Workshop" }}{{ end }}
+      {{ if eq $category "preprint" }}{{ $type = "Preprint" }}{{ end }}
+      {{ $scholarKey := path.Base (strings.TrimSuffix "/" $item.RelPermalink) }}
+      {{ $citation := index $scholarPublications $scholarKey }}
+      {{ $citationCount := 0 }}
+      {{ with $citation }}{{ $citationCount = int (index . "citations") }}{{ end }}
+      <li class="publication-item"
+          data-publication-category="{{ $category }}"
+          data-publication-year="{{ $item.Date.Format "20060102150405" }}"
+          data-publication-citations="{{ $citationCount }}"
+          data-publication-order="{{ $index }}">
+        <div class="publication-number" data-publication-number>{{ add $index 1 }}.</div>
+        <div class="publication-thumbnail">
+          {{ $thumbnailResource := $item.Resources.GetMatch "thumbnail.png" }}
+          {{ if not $thumbnailResource }}{{ $thumbnailResource = $item.Resources.GetMatch "thumbnail.jpg" }}{{ end }}
+          {{ if not $thumbnailResource }}{{ $thumbnailResource = $item.Resources.GetMatch "thumbnail.jpeg" }}{{ end }}
+          {{ if not $thumbnailResource }}{{ $thumbnailResource = $item.Resources.GetMatch "thumbnail.webp" }}{{ end }}
+          {{ if not $thumbnailResource }}{{ $thumbnailResource = $item.Resources.GetMatch "thumbnail.svg" }}{{ end }}
+          {{ if not $thumbnailResource }}{{ $thumbnailResource = $item.Resources.GetMatch "featured.*" }}{{ end }}
+          {{ with $thumbnailResource }}
+            {{ if reflect.IsImageResourceProcessable . }}
+              {{ $thumbnail := .Fill "220x180 Center webp" }}
+              <img src="{{ $thumbnail.RelPermalink }}" alt="Visual for {{ $item.Title }}" loading="lazy">
+            {{ else }}
+              <img src="{{ .RelPermalink }}" alt="Visual for {{ $item.Title }}" loading="lazy">
+            {{ end }}
+          {{ else }}
+            <span>{{ $venue | default $type }}</span>
+          {{ end }}
+        </div>
+        <article class="publication-content">
+          <div class="publication-title-row">
+            <h3>{{ $item.Title }}</h3>
+            <div class="publication-badges">
+              <span>{{ $type }}</span>
+              <span>{{ $item.Date.Format "2006" }}</span>
+            </div>
+          </div>
+          <p class="publication-authors">
+            {{ range $authorIndex, $author := $item.Params.authors }}{{ if gt $authorIndex 0 }}, {{ end }}{{ if eq $author "me" }}<strong>Lekang Jiang</strong>{{ else }}{{ $author }}{{ end }}{{ end }}
+          </p>
+          {{ with $venue }}<p class="publication-venue">{{ . }}</p>{{ end }}
+          {{ with $item.Params.summary }}<p class="publication-summary">{{ . }}</p>{{ end }}
+          <div class="publication-actions">
+            {{ with $item.Params.paper_url }}<a href="{{ . }}" target="_blank" rel="noopener">Paper</a>{{ end }}
+            {{ with $item.Params.code_url }}<a href="{{ . }}" target="_blank" rel="noopener">Code</a>{{ end }}
+            {{ with $citation }}<span class="publication-citations">Cited by {{ index . "citations" }}</span>{{ end }}
+          </div>
+        </article>
+      </li>
+    {{ end }}
+  </ol>
+  <p class="publication-empty" data-publication-empty hidden>No publications in this category yet.</p>
+  {{ with $scholar.updated_at }}<p class="publication-citation-note">Citation counts from Google Scholar, updated {{ . }}.</p>{{ end }}
+</div>

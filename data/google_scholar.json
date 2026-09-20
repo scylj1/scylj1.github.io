@@ -1,0 +1,53 @@
+{
+  "author_id": "XI2SztwAAAAJ",
+  "profile_url": "https://scholar.google.com/citations?user=XI2SztwAAAAJ&hl=en",
+  "updated_at": "2026-09-21",
+  "total_citations": 183,
+  "publications": {
+    "nlp-patent-survey": {
+      "citations": 88,
+      "scholar_id": "XI2SztwAAAAJ:kNdYIx-mwKoC",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=XI2SztwAAAAJ&citation_for_view=XI2SztwAAAAJ:kNdYIx-mwKoC"
+    },
+    "llm-patent-claims": {
+      "citations": 33,
+      "scholar_id": "XI2SztwAAAAJ:Se3iqnhoufwC",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=XI2SztwAAAAJ&citation_for_view=XI2SztwAAAAJ:Se3iqnhoufwC"
+    },
+    "patent-cr": {
+      "citations": 13,
+      "scholar_id": "XI2SztwAAAAJ:eQOLeE2rZwMC",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=XI2SztwAAAAJ&citation_for_view=XI2SztwAAAAJ:eQOLeE2rZwMC"
+    },
+    "patent-claim-evaluation": {
+      "citations": 12,
+      "scholar_id": "XI2SztwAAAAJ:LkGwnXOMwfcC",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=XI2SztwAAAAJ&citation_for_view=XI2SztwAAAAJ:LkGwnXOMwfcC"
+    },
+    "fdapt": {
+      "citations": 9,
+      "scholar_id": "XI2SztwAAAAJ:qjMakFHDy7sC",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=XI2SztwAAAAJ&citation_for_view=XI2SztwAAAAJ:qjMakFHDy7sC"
+    },
+    "european-patent-dataset": {
+      "citations": 6,
+      "scholar_id": "XI2SztwAAAAJ:roLk4NBRz8UC",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=XI2SztwAAAAJ&citation_for_view=XI2SztwAAAAJ:roLk4NBRz8UC"
+    },
+    "reasoning-hierarchical-text-classification": {
+      "citations": 2,
+      "scholar_id": "XI2SztwAAAAJ:UebtZRa9Y70C",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=XI2SztwAAAAJ&citation_for_view=XI2SztwAAAAJ:UebtZRa9Y70C"
+    },
+    "adias": {
+      "citations": 0,
+      "scholar_id": "XI2SztwAAAAJ:5nxA0vEk-isC",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=XI2SztwAAAAJ&citation_for_view=XI2SztwAAAAJ:5nxA0vEk-isC"
+    },
+    "benchmarking-patent-drafting": {
+      "citations": 0,
+      "scholar_id": "XI2SztwAAAAJ:8k81kl-MbHgC",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=XI2SztwAAAAJ&citation_for_view=XI2SztwAAAAJ:8k81kl-MbHgC"
+    }
+  }
+}
