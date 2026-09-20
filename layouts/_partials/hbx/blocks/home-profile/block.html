@@ -1,0 +1,133 @@
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $content := $block.content }}
+{{ $profile := index hugo.Data.authors "me" }}
+
+<div class="home-profile-shell">
+  <div class="home-profile-grid">
+    <aside class="home-profile-left">
+      <div class="home-identity-card">
+        {{ with resources.Get "media/authors/me.jpg" }}
+          {{ $avatar := .Fill "480x480 Center" }}
+          <img class="home-profile-avatar" src="{{ $avatar.RelPermalink }}" alt="Lekang Jiang" width="240" height="240">
+        {{ end }}
+        <div>
+          <h1 class="home-profile-name">{{ $content.name }}</h1>
+        </div>
+        <div class="home-profile-details" aria-label="Profile summary">
+          <p>{{ $content.role }}</p>
+          <p><a href="{{ $content.university_url }}" target="_blank" rel="noopener">{{ $content.university }}</a></p>
+          <p class="home-profile-email">{{ $content.email }}</p>
+        </div>
+        <div class="home-social-links" aria-label="Academic and social profiles">
+          {{ range $profile.links }}
+            <a href="{{ .url }}" target="_blank" rel="noopener" aria-label="{{ .icon }}">
+              {{ partial "functions/get_icon" (dict "name" .icon "attributes" "class='h-5 w-5'") }}
+            </a>
+          {{ end }}
+        </div>
+      </div>
+
+      <section class="home-news-card">
+        <div class="home-card-heading home-card-heading--news">
+          <span class="home-heading-icon home-heading-icon--small">{{ partial "functions/get_icon" (dict "name" "hero/newspaper" "attributes" "class='h-5 w-5'") }}</span>
+          <h2>Recent News</h2>
+        </div>
+        <ol class="home-news-list">
+          {{ range $content.news }}
+            <li>
+              <time>{{ .date }}</time>
+              <p>
+                {{ if .url }}
+                  <a href="{{ .url }}" target="_blank" rel="noopener">{{ .text }}</a>
+                {{ else }}
+                  {{ .text }}
+                {{ end }}
+              </p>
+            </li>
+          {{ end }}
+        </ol>
+      </section>
+    </aside>
+
+    <div class="home-profile-right">
+      <section class="home-about-card">
+        <div class="home-card-heading">
+          <span class="home-heading-icon">{{ partial "functions/get_icon" (dict "name" "hero/identification" "attributes" "class='h-6 w-6'") }}</span>
+          <h2>About Me</h2>
+        </div>
+        <div class="home-about-copy">
+          {{ $content.about | $page.RenderString }}
+        </div>
+      </section>
+
+      <section id="education" class="home-education-card">
+        <div class="home-card-heading">
+          <span class="home-heading-icon">{{ partial "functions/get_icon" (dict "name" "hero/academic-cap" "attributes" "class='h-6 w-6'") }}</span>
+          <h2>Education</h2>
+        </div>
+        <ol class="home-education-list">
+          {{ range $content.education }}
+            <li>
+              <span class="home-organization-logo">
+                {{ with resources.Get .logo }}
+                  <img src="{{ .RelPermalink }}" alt="{{ $.content.name }} university logo">
+                {{ else }}
+                  {{ partial "functions/get_icon" (dict "name" "hero/academic-cap" "attributes" "class='h-5 w-5'") }}
+                {{ end }}
+              </span>
+              <div class="home-education-main">
+                <h3>{{ .degree }}</h3>
+                <p><a href="{{ .institution_url }}" target="_blank" rel="noopener">{{ .institution }}</a></p>
+                {{ with .detail }}<div class="home-education-detail">{{ . | $page.RenderString }}</div>{{ end }}
+              </div>
+              <div class="home-education-period">{{ .period }}</div>
+            </li>
+          {{ end }}
+        </ol>
+      </section>
+    </div>
+  </div>
+
+  <section id="experience" class="home-experience-section">
+    <header class="home-card-heading home-card-heading--section">
+      <span class="home-heading-icon">{{ partial "functions/get_icon" (dict "name" "hero/briefcase" "attributes" "class='h-6 w-6'") }}</span>
+      <h2>Experience</h2>
+    </header>
+    <ol class="home-experience-list">
+      {{ range $profile.experience }}
+        {{ $start := time.Format "2006.01" .start }}
+        {{ $end := "Present" }}
+        {{ with .end }}{{ $end = time.Format "2006.01" . }}{{ end }}
+        <li>
+          <span class="home-organization-logo home-organization-logo--work">
+            {{ with resources.Get .logo }}
+              <img src="{{ .RelPermalink }}" alt="{{ $.content.name }} organization logo">
+            {{ else }}
+              {{ partial "functions/get_icon" (dict "name" "hero/briefcase" "attributes" "class='h-5 w-5'") }}
+            {{ end }}
+          </span>
+          <div class="home-experience-main">
+            <h3>{{ .role }}</h3>
+            <p class="home-experience-org">{{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .org }}</a>{{ else }}{{ .org }}{{ end }}</p>
+            <time>{{ $start }} — {{ $end }}</time>
+            {{ with .summary }}<div class="home-experience-summary">{{ . | $page.RenderString }}</div>{{ end }}
+          </div>
+        </li>
+      {{ end }}
+    </ol>
+
+    <div class="home-experience-extras">
+      <section class="home-experience-extra-row">
+        <h3><span>{{ partial "functions/get_icon" (dict "name" "hero/trophy" "attributes" "class='h-5 w-5'") }}</span>Honors & Awards</h3>
+        <ul class="home-inline-list">
+          {{ range $profile.awards }}<li><strong>{{ time.Format "2006" .date }}</strong>{{ .title }}</li>{{ end }}
+        </ul>
+      </section>
+      <section class="home-experience-extra-row">
+        <h3><span>{{ partial "functions/get_icon" (dict "name" "hero/user-group" "attributes" "class='h-5 w-5'") }}</span>Community Service</h3>
+        <div class="home-extra-copy">{{ $content.community | $page.RenderString }}</div>
+      </section>
+    </div>
+  </section>
+</div>

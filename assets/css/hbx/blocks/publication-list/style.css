@@ -1,0 +1,151 @@
+@layer components {
+  .publication-list-shell {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8;
+  }
+
+  .publication-list-heading {
+    @apply mb-5 flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between;
+  }
+
+  .publication-heading-title {
+    @apply flex items-center gap-4;
+  }
+
+  .publication-heading-title > span {
+    @apply flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary-100 text-primary-600 dark:bg-primary-900/50 dark:text-primary-400;
+  }
+
+  .publication-heading-title h2 {
+    @apply text-3xl font-black tracking-tight text-slate-950 dark:text-white sm:text-4xl;
+  }
+
+  .publication-heading-intro {
+    @apply mt-4 text-base leading-7 text-slate-600 dark:text-slate-400;
+  }
+
+  .publication-list-heading > a {
+    @apply shrink-0 text-sm font-bold text-primary-600 transition hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300;
+  }
+
+  .publication-controls {
+    @apply mb-7 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between;
+  }
+
+  .publication-filters {
+    @apply flex flex-wrap gap-2;
+  }
+
+  .publication-filters button {
+    @apply rounded-full border border-slate-200 bg-transparent px-4 py-2 text-xs font-bold text-slate-600 transition hover:border-primary-300 hover:text-primary-600 dark:border-slate-700 dark:text-slate-400 dark:hover:border-primary-700 dark:hover:text-primary-400;
+  }
+
+  .publication-filters button[aria-pressed="true"] {
+    @apply border-primary-600 bg-primary-600 text-white shadow-sm hover:text-white dark:border-primary-500 dark:bg-primary-500;
+  }
+
+  .publication-sort {
+    @apply flex shrink-0 items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400;
+  }
+
+  .publication-sort select {
+    @apply rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm font-semibold normal-case tracking-normal text-slate-700 outline-none transition focus:border-primary-500 focus:ring-2 focus:ring-primary-200 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:focus:border-primary-500 dark:focus:ring-primary-900;
+  }
+
+  .publication-list {
+    @apply divide-y divide-slate-200 border-y border-slate-200 dark:divide-slate-700 dark:border-slate-700;
+  }
+
+  .publication-item {
+    @apply grid grid-cols-[2rem_5.5rem_1fr] gap-4 py-6 sm:grid-cols-[2.5rem_6.75rem_1fr] sm:gap-5;
+  }
+
+  .publication-item[hidden] {
+    display: none;
+  }
+
+  .publication-number {
+    @apply pt-1 text-xs font-black tabular-nums tracking-wider text-primary-500;
+  }
+
+  .publication-thumbnail {
+    @apply flex h-[4.75rem] w-[5.5rem] items-center justify-center overflow-hidden rounded-lg bg-white p-1.5 shadow-sm ring-1 ring-slate-200 dark:bg-slate-100 dark:ring-slate-700 sm:h-[5.75rem] sm:w-[6.75rem];
+  }
+
+  .publication-thumbnail img {
+    @apply h-full w-full object-contain;
+  }
+
+  .publication-thumbnail span {
+    @apply line-clamp-2 p-2 text-[0.65rem] font-black uppercase leading-tight tracking-wide text-primary-800 dark:text-primary-200;
+  }
+
+  .publication-content {
+    @apply min-w-0;
+  }
+
+  .publication-title-row {
+    @apply flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between;
+  }
+
+  .publication-title-row h3 {
+    @apply text-base font-bold leading-6 text-slate-950 dark:text-white sm:text-lg;
+  }
+
+  .publication-title-row h3 a {
+    @apply transition hover:text-primary-600 dark:hover:text-primary-400;
+  }
+
+  .publication-badges {
+    @apply flex shrink-0 flex-wrap gap-1.5;
+  }
+
+  .publication-badges span {
+    @apply rounded-full bg-primary-50 px-2.5 py-1 text-[0.65rem] font-bold uppercase tracking-wide text-primary-700 dark:bg-primary-950/60 dark:text-primary-300;
+  }
+
+  .publication-authors {
+    @apply mt-2 text-sm leading-6 text-slate-600 dark:text-slate-400;
+  }
+
+  .publication-authors strong {
+    @apply font-bold text-slate-950 dark:text-white;
+  }
+
+  .publication-venue {
+    @apply mt-1 text-sm font-semibold italic text-primary-600 dark:text-primary-400;
+  }
+
+  .publication-summary {
+    @apply mt-2 line-clamp-2 text-sm leading-6 text-slate-600 dark:text-slate-400;
+  }
+
+  .publication-actions {
+    @apply mt-3 flex flex-wrap gap-2;
+  }
+
+  .publication-actions a {
+    @apply rounded-md border border-slate-200 px-2.5 py-1 text-xs font-semibold text-slate-600 transition hover:border-primary-300 hover:bg-primary-50 hover:text-primary-700 dark:border-slate-700 dark:text-slate-400 dark:hover:border-primary-700 dark:hover:bg-primary-950/50 dark:hover:text-primary-300;
+  }
+
+  .publication-actions .publication-citations {
+    @apply rounded-md bg-slate-100 px-2.5 py-1 text-xs font-semibold text-slate-600 dark:bg-slate-800 dark:text-slate-300;
+  }
+
+  .publication-empty {
+    @apply border-b border-slate-200 py-10 text-center text-sm text-slate-500 dark:border-slate-700 dark:text-slate-400;
+  }
+
+  .publication-citation-note {
+    @apply mt-3 text-right text-xs text-slate-400 dark:text-slate-500;
+  }
+
+  @media (max-width: 639px) {
+    .publication-item {
+      grid-template-columns: 1.5rem 1fr;
+    }
+
+    .publication-thumbnail {
+      display: none;
+    }
+  }
+}
